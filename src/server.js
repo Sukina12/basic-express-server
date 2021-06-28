@@ -15,7 +15,7 @@ app.use(logger);
 
 // Routes
 app.get('/', (req, res) => {
-  res.send('Hello From Sukina Class 2 !')
+  res.send('Hello From Sukina Class 2 !');
 });
 
 app.get('/person', validator, (req,res) => {
@@ -34,11 +34,11 @@ app.use (errorHandler);
 // start function
 function start(port) {
   app.listen(port, () => {
-    console.log (`app is listening on the port ${port}`)
+    console.log (`app is listening on the port ${port}`);
   });
 }
 
 module.exports = {
   app: app,
   start: start,
-}
+};

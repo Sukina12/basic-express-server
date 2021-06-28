@@ -23,7 +23,7 @@ describe('logger middleware', () => {
   it ('Moving To next Middleware', () => {
     loggerMiddleware (req,res,next);
     expect(next).toHaveBeenCalled();
-  })
+  });
 
 
 });
