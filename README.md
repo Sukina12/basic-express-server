@@ -6,7 +6,7 @@
 
 * [TestReport](https://github.com/Sukina12/basic-express-server/actions)
 
-* [FrontEnd](https://sukina-express-server.herokuapp.com/)
+* [deploymentURL](https://sukina-express-server.herokuapp.com/)
 
 #### Setup
 
